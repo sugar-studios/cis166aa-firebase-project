@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Project 9</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- "Frame" header to connect this assignment to the rest of your assignment tree -->
+  <header class="text-center">
+    <button onclick="window.location.href='../../index.html'">Back to Home</button>
+    <h1>Lesson 9 Project</h1>
+  </header>
+
+  <main>
+    <h2>Event Examples</h2>
+
+    <!-- 1) load event -->
+    <p id="loadMessage"></p>
+
+    <!-- 2) keydown event, 3) keyup event -->
+    <div>
+      <label for="textInput">Type something (keydown & keyup):</label><br>
+      <input type="text" id="textInput" />
+      <p id="typingInfo"></p>
+    </div>
+
+    <!-- 4) mouseenter event, 5) mouseleave event -->
+    <div id="hoverBox">Hover over me!</div>
+
+    <!-- 6) click event -->
+    <button id="clickBtn">Click Me</button>
+    <p id="clickMessage"></p>
+
+    <!-- 7) dblclick event -->
+    <div id="dblClickBox">Double-click me!</div>
+    <p id="dblClickMessage"></p>
+
+    <!-- 8) focus event, 9) blur event -->
+    <div>
+      <label for="focusInput">Focus & Blur Example:</label><br>
+      <input type="text" id="focusInput" />
+      <p id="focusMessage"></p>
+    </div>
+
+    <!-- 10) change event -->
+    <div>
+      <label for="colorSelect">Choose a color (change event):</label><br>
+      <select id="colorSelect">
+        <option value="">--Select--</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+      </select>
+      <p id="selectedColor"></p>
+    </div>
+
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
